@@ -25,7 +25,7 @@ log = logging.getLogger("animepahe_api")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
 # Config
-BASE = "https://animepahe.com"
+BASE = "https://animepahe.pw"
 NODE_BIN = os.environ.get("NODE_BIN", "node")  # allow override
 CHECK_NODE = shutil.which(NODE_BIN) is not None
 
